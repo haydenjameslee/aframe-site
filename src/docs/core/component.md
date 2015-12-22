@@ -123,7 +123,7 @@ a component is coming soon.
 Let's create an example component that rapidly vibrates an object by shifting its position back and forth.
 
 ```js
-require('aframe').registerComponent('vibrate', {
+AFRAME.aframeCore.registerComponent('vibrate', {
   schema: {
     dur: {
       default: 20
